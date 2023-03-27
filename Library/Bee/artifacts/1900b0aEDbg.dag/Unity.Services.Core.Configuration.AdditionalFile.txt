@@ -1,1 +1,3 @@
-C:\Users\keshi\Desktop\kougei\ゼミ\Unity\HakoProject
+version https://git-lfs.github.com/spec/v1
+oid sha256:db6ffbab1a0dbeb1a73cc88e4c6147490fc1b751d1e7978c25bd78377029f662
+size 54

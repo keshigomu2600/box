@@ -1,32 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class GameClear : MonoBehaviour
-{
-    public RespornPoint.Resporn resporn;
-    public PointAdd.AddPoint addPoint;
-
-    [Header("アニメーター")]
-    public Animator clearUI;
-
-    [HideInInspector]
-    public int point = 0;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(point >= resporn.sliderCompornent.value)
-        {
-            clearUI.SetTrigger("Trigger");
-            resporn.ApperObj();
-            point = 0;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e42c5568abacb49e9ec4989ce612aa81634baa5b83a3b5fbe72c476a7509760
+size 667

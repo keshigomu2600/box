@@ -1,24 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class ComboText : MonoBehaviour
-{
-    [Header("何コンボしたか取得する為")]
-    public PointAdd.AddPoint addPoint;
-
-    Text text;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        text = GetComponent<Text>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        text.text = addPoint.num + "コンボ！";
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7efcaa4007922ef3b8a8614e9cb26e399dad74ef37e2186491feb6203903c283
+size 502

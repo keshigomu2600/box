@@ -1,1 +1,3 @@
-C:\Users\keshi\Desktop\kougei\ゼミ\Unity\My project
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c062ec77c499f468ba952d5f42ba245df9421d68109f5588417fb65a16d8bf5
+size 53

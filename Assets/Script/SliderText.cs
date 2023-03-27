@@ -1,23 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class SliderText : MonoBehaviour
-{
-    [Header("対象シリンダー")]
-    public Slider hpSlider;
-
-    Text text;
-
-    // Use this for initialization
-    void Start()
-    {
-        text = GetComponent<Text>();
-    }
-
-    private void Update()
-    {
-        text.text = "落とす数：" + hpSlider.value;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c56573ea9c6a40f3d33b7d4af8cab50ba97810cf1265f290c58d3eacfb7c4a2b
+size 436
